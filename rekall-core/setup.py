@@ -178,7 +178,7 @@ setup(
         ':sys_platform=="win32"': [
             # Just grab the latest since it is not the same version on
             # both python2 and python3.
-            "pypiwin32==223",
+            "pypiwin32",
         ],
     }
 )
